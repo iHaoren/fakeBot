@@ -1,0 +1,93 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+    background-image: url(/image.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right, rgba(200, 160, 255, 0.2), rgba(173, 216, 230, 0.2));
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35), 0 1.5px 4px rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    padding: 20px;
+    margin: 24px;
+}
+
+#pertanyaan {
+    text-align: center;
+    background: none;
+    color: #111;
+    margin-bottom: 12px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+input {
+    background: none;
+    border: none;
+    color: #111;
+    padding: 16px;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 14px;
+    background-color: lightgray;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+}
+
+.row {
+    background: none;
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    background: none;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 16px;
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 12px;
+    margin-top: 14px;
+    background-color: lightgrey;
+    font-size: 24px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+button:hover {
+    background-color: grey;
+    color: lightyellow;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
